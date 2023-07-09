@@ -3,7 +3,7 @@
 # ImageLoader Library Documentation
 
 <p align="center">
-  <img src="https://github.com/TKamar/EasyImageLoader/blob/master/EasyImageLoader/src/main/res/raw/EasyImageLoader.png?raw=true">
+  <img src="https://github.com/TKamar/EasyImageLoader/blob/master/app/src/main/res/raw/easyimageloader.png">
 </p>
 
 The ImageLoader library simplifies the process of loading and caching images from remote sources (such as URLs) in Android apps. It handles image downloading, caching, memory management, and provides support for placeholders and image transformations. This library is designed to be easy to use and can be integrated into any Android project.
