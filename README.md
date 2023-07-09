@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/TKamar/EasyImageLoader.svg)](https://jitpack.io/#TKamar/EasyImageLoader)
+
 # ImageLoader Library Documentation
 
 <p align="center">
