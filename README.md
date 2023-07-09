@@ -1,7 +1,7 @@
 # ImageLoader Library Documentation
 
 <p align="center">
-  <img src="https://github.com/TKamar/EasyImageLoader/blob/master/easyImageLoaderModule/src/main/res/values/Easy%20Image%20Loader.png?raw=true">
+  <img src="https://github.com/TKamar/EasyImageLoader/blob/master/EasyImageLoader/src/main/res/raw/EasyImageLoader.png?raw=true">
 </p>
 
 The ImageLoader library simplifies the process of loading and caching images from remote sources (such as URLs) in Android apps. It handles image downloading, caching, memory management, and provides support for placeholders and image transformations. This library is designed to be easy to use and can be integrated into any Android project.
@@ -90,9 +90,26 @@ public class MainActivity extends AppCompatActivity {
 
 Make sure to replace `R.layout.activity_main` with your actual layout file and `R.id.imageView` with the ID of your ImageView.
 
+## How to Use
+
+1. Add it in your root build.gradle at the end of repositories:
+   ```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+   ```
+2. Add the dependency:
+   ```
+	dependencies {
+	        implementation 'com.github.TKamar:EasyImageLoader:v1.0'
+	}
+   ```
+
 ## Conclusion
 
 The ImageLoader library provides a convenient and efficient way to load and cache images in Android apps. It simplifies the process of image handling, improves performance, and enhances the user experience. By following the installation and usage instructions provided in this documentation, you can easily integrate the library into your Android project.
 
 Note: This is a simplified implementation of an image loading and caching library. In real-world scenarios, you may need to handle additional features like disk caching, image transformations, error handling, and cancellation of image loading tasks. Feel free to extend and modify the library according to your specific requirements.
-
